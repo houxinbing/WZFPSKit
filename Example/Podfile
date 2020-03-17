@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WZFPSKit_Example' do
+  pod 'WZFPSKit', :path => '../'
+
+  target 'WZFPSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
